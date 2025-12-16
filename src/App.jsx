@@ -151,7 +151,7 @@ const Portfolio = () => {
     {
       role: "IT Support Specialist",
       company: "SMK TI DWIGUNA",
-      period: "2021 – Present",
+      period: "2021 – 2024",
       desc: "Managing and maintaining school server infrastructure to ensure high availability. Responsible for network troubleshooting, hardware maintenance, and data security backups.",
     },
   ];
@@ -320,7 +320,7 @@ const Portfolio = () => {
               className='text-5xl md:text-7xl font-extrabold mb-6 tracking-tight text-slate-900 dark:text-white'>
               Hello, I'm <br />
               {/* SOLID COLOR */}
-              <span className='text-cyan-600 dark:text-cyan-400'>Putra.</span>
+              <span className='text-cyan-600 dark:text-cyan-400'>Wijaya.</span>
             </motion.h1>
 
             <motion.p
