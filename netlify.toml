@@ -1,0 +1,15 @@
+[build]
+  command = "npm run build"
+  publish = "dist"
+
+# Redirect favicon.ico requests to vite.svg
+[[redirects]]
+  from = "/favicon.ico"
+  to = "/vite.svg"
+  status = 200
+
+# SPA fallback - must be last
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
